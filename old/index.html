@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>My-webpage by NafiCS12</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Nafi Us-Sabbir</h1>
+        <p class="header"></p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="http://thenafi36.wordpress.com/">My Blog</a></li>
+          <li class="download"><a class="buttons" href="http://uhunt.felix-halim.net/id/216336">My UVA Profile</a></li>
+
+          <li class="download"><a class="buttons" href="http://acm.tju.edu.cn/toj/user_nafi2k12java.html">My TJU Profile</a></li>
+          
+          <li class="download"><a class="buttons" href="http://codeforces.com/profile/NafiCS12">CodeForces Profile</a></li>
+        
+    
+       
+      
+        <p><font size="5" color="#00ffff">thinking java</font> </p>
+          <li class="download"><a class="buttons" href="http://thenafi36.wordpress.com/">Java Tips And Tricks</a></li>
+ </ul>
+
+          </header>
+      <section>
+
+
+<h4> <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java Code Of the day: fastReader</h4>
+
+<pre><code language="java">
+import java.io.*;
+import java.util.*;
+
+
+/** @author Nafi */
+
+/** Class for buffered reading int and double values */
+public class fastReader 
+{
+    static BufferedReader reader;
+    static StringTokenizer tokenizer;
+
+    /** calling this method to initialize reader for InputStream */
+    static void init(InputStream iStream) 
+    {
+        reader = new BufferedReader(
+                     new InputStreamReader(input) );
+        tokenizer = new StringTokenizer("");
+    }
+
+    /** getting next word */
+    static String next() throws IOException {
+        while ( ! tokenizer.hasMoreTokens() ) {
+            //TODO add check for eof if necessary
+            tokenizer = new StringTokenizer(
+                   reader.readLine() );
+        }
+        return tokenizer.nextToken();
+    }
+	//to read Int
+    static int nextInt() throws IOException {
+        return Integer.parseInt( next() );
+    }
+	//to read double
+    static double nextDouble() throws IOException {
+        return Double.parseDouble( next() );
+    }
+   
+}
+</code></pre>
+
+<h5>
+    <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span> <font color=" blue"> About me </font> </a></h5>
+<p>I am currently studying in BUET,CSE</p>
+<p> <b>Interest :</b> </p>
+<p> 1.Competitive Programming </p>
+<p> 2.Software Development </p>
+<p> 3.Algorithms And Data Structure  </p>
+
+<p>e-mail : nafi.sabith.1993@gmail.com</p>
+</section>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
